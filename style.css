@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*variables*/
+
 :root {
     --ff-heading: 'Staatliches', cursive, sans-serif;
     --ff-texting: 'Opens sanPalanquin', sans-serif;
@@ -126,6 +129,8 @@ main {
     animation: downtop 700ms 350ms reverse backwards;
 }
 
+main
+
 .card {
     position: relative;
     font-family: var(--ff-heading);
@@ -149,8 +154,8 @@ main {
 
 .card h2 {
     position: relative;
-    bottom: 5.2rem;
-    left: 2.8rem;
+    bottom: 40rem;
+    left: 16rem;
 
     font-size: var(--fs-heading-sm);
     font-weight: 800;
@@ -161,9 +166,13 @@ main {
 
     animation: topdown 700ms;
 
+    animation-fill-mode: forwards;
+    
+
     
     
 }
+
 
 .card h2 span {
     border-radius: 2rem;
@@ -193,6 +202,7 @@ main {
         transform: translateY(0);
     }
 }
+
 
 @keyframes downtop {
     100% {
